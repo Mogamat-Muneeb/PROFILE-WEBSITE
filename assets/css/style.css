@@ -1,0 +1,13 @@
+
+
+.details_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 211px;
+
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end ;
+}
+ 
