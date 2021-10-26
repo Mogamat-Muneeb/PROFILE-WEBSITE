@@ -1,11 +1,25 @@
-body{
-    background-color: #1b2a4e;
+
+
+#Home{
+    
+    font-family: 'Electrolize', sans-serif;
+    background: 
+    
+   -webkit-linear-gradient( -45deg,rgb(220, 53, 69)45%,white 0%),
+   -webkit-linear-gradient(#f8f9fa , rgba(135, 60, 255, 0.0) 0%);
+    height:100vh;
+
 }
+
+
+
+
+
 
 .details_content {
     display: flex;
     flex-direction: row;
-    margin-top: 211px;
+    margin-top: 250px;
 
 }
 .navbar-collapse{
@@ -15,11 +29,21 @@ body{
  
 .img{
     padding-left: 30%;
+  
 }
 .icons{
     color: 	#df4759;
     display: flex;
     justify-content:space-evenly;
-   
-
 }
+.info{
+     display: flex;
+     flex-direction: row;
+     margin-right: 100px;
+}
+  .row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
