@@ -237,20 +237,9 @@
         <div class="container-lg">
           <div class="justify-content-center align-items-center">
             <h2 class="fs-1display-2 text-dark text-center m-5 ">My Projects</h2>
-               
-
-
-
-
-
-
-
-
         </div>
-        </div>
-
-        
-      </section>
+      </div>
+     </section>
 
 
       <section id="testimonialS">
@@ -259,19 +248,11 @@
             <h2 class="fs-1display-2 text-dark text-center m-5 ">Testimonials</h2>
 
 
-<!-- <section class="testimonials-section">
-  <div class="container">
-    <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonials">
-      <div class="training-title">
-        <h4 class="aoe-title">Testimonials</h4>
-        <div class="line"></div>
       </div>       -->
 
     <div class="col-center m-auto">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
  
-        <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
           <div class="item carousel-item active">
             <div class="img-box"><img src="Breda_Y1.JPG" alt=""></div>
@@ -345,11 +326,7 @@
   </div>
 </div>
 </section>
-
-
-
-        
-      </section>
+      
 
 
       <section id="contact me">
@@ -357,20 +334,95 @@
           <div class="justify-content-center align-items-center">
             <h2 class="fs-1display-2 text-dark text-center m-5 ">Contact Me</h2>
             <div class="call p-5 "> 
-            <i class="bi bi-telephone" style="font-size: 30;"></i>
-            <i class="bi bi-geo-alt" style="font-size: 30;"></i>
-            <i class="bi bi-envelope" style="font-size: 30;"></i>
+                <div> <i class="bi bi-telephone" style="font-size: 30; color: #df4759;"></i> 
+                  <br> 
+                      <div class="call-me">Call Me On:</div>
+                      <div class="call-me-1 text-muted">+ 27 76 162 1649</div>
+                </div>
+
+                <div> <i class="bi bi-geo-alt" style="font-size: 30;  color: #df4759;"></i> 
+                  <br> 
+                      <div class="call-me">Home:</div>
+                      <div class="call-me-1 text-muted">Cape Town, South Africa</div>
+                </div>
+
+                <div> <i class="bi bi-envelope" style="font-size: 30;  color: #df4759;"></i> 
+                  <br> 
+                      <div class="call-me">Email:</div>
+                      <div class="call-me-1 text-muted">davimuneeb785@gmail.com</div>
+                </div>
             </div>
+                      
+          <div class="container py-4">
 
-               
-       
-      
-        
+          
+            <form id="contactForm"  action="https://formspree.io/f/xzbyqgar" method="POST" >
+
+              
+              <div class="mb-3">
+                <label class="form-label" for="name">Name</label>
+                <input class="form-control" id="name" type="text" placeholder="Name" data-sb-validations="required" />
+                <div class="invalid-feedback" data-sb-feedback="name:required">Name is required.</div>
+              </div>
+
+            
+              <div class="mb-3">
+                <label class="form-label" for="emailAddress">Email Address</label>
+                <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Email Address is required.</div>
+                <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address Email is not valid.</div>
+              </div>
+
+              
+              <div class="mb-3">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" data-sb-validations="required"></textarea>
+                <div class="invalid-feedback" data-sb-feedback="message:required">Message is required.</div>
+              </div>
+
+              <div class="d-none" id="submitSuccessMessage">
+                <div class="text-center mb-3">Form submission successful!</div>
+              </div>
+
+            
+              <div class="d-none" id="submitErrorMessage">
+                <div class="text-center text-danger mb-3">Error sending message!</div>
+              </div>
+
+            
+              <div class="d-grid">
+                <button class="btn btn-danger btn-lg" type="send">Submit</button>
+              </div>
+
+            </form>
+
+          </div>
       </section>
+  <!-- footer -->
+  <div class="footer-basic">
+    <footer>
+        <div class="social">
+          <a href="https://www.instagram.com/landyachtz/?hl=en"><i class="icon ion-social-instagram"></i></a>
+          
+          <a href="https://www.facebook.com/landyachtzlongboards/"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+
+            <li class="list-inline-item"><a href="#Home">Home</a></li>
+            <li class="list-inline-item"><a href="#about">About</a></li>
+            <li class="list-inline-item"><a href="#work-and-education">Work and Education</a></li>
+            <li class="list-inline-item"><a href="#skills">Skills</a></li>
+            <li class="list-inline-item"><a href="#projects">Projects</a></li>
+            <li class="list-inline-item"><a href="#testimonialS">Testimonials</a></li>
+            <li class="list-inline-item"><a href="#contact me">Contact Me</a></li>
 
 
+        </ul>
+        <p class="copyright">Landyachtz Dinghy © 2021</p>
+    </footer>
+</div>
 
-  </div>
+
+ 
 
 
 
