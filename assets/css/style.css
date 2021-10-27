@@ -40,6 +40,7 @@
      display: flex;
      flex-direction: row;
      margin-right: 100px;
+     justify-content: center;
 }
 
 .green:hover{
@@ -321,4 +322,14 @@ body{
     margin-bottom:0;
   }
   
-  
+ /* .bio{
+     display:flex;
+     justify-content:space-evenly;
+     
+ } */
+/* 
+ .row1{
+     display: grid;
+     justify-content: right;
+     margin-top: -300px;
+ } */
