@@ -41,10 +41,11 @@
      flex-direction: row;
      margin-right: 100px;
 }
-  .row{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+
+.green:hover{
+    /* color: forestgreen; */
+    color:#df4759 !important;
+    /* transition: 0.1s; */
 }
 
 /* timeline */
@@ -79,9 +80,12 @@ ul.timeline > li:before {
     z-index: 400;
 }
 #about{
-    height: 200vh;
+    height: 150vh;
 }
 
-#work-and-education{
-    height: 200vh;
+/* .section{
+    justify-content:space-evenly;
+} */
+#skills{
+    height: 150vh;
 }
