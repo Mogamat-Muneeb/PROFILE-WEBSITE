@@ -333,3 +333,13 @@ body{
      justify-content: right;
      margin-top: -300px;
  } */
+
+ /* projects */
+
+ card1{
+  transition: border-color 1s, box-shadow 0.5s;
+}
+.card1:hover {
+  border-color: #df4759;
+  box-shadow: 0px 0px 10px 2px #df4759;
+}
