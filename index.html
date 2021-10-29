@@ -114,14 +114,30 @@
                       
                     
         <div class=" justify-content-center align-items-center text-center col-12 col-md-6 col-lg-6 mt-5">  
-                      <h6 class=" info col-md-9 mt-5">Info:</h6>
+                      <!-- <h6 class=" info">Info:</h6>
                       <div class="col-md-9 mt-5 ">
                         <span class="text-danger"> Email: <p class="me_details text-muted">davimuneeb785@gmail.com</p></span>
                         <span class="text-danger"> Birthday: <p class="me_details text-muted">20 August 2001</p></span> 
                         <span class="text-danger"> Age: <p class="me_details text-muted">20</p></span>
                         <span class="text-danger"> City: <p class="me_details text-muted"> Cape Town</p></span>
                         <span class="text-danger"> Phone and Message:  <p class="me_details text-muted">+27 76 162 1649</p></span>
-                      </div>
+                      </div> -->
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Extra Information
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong> <span class="text-danger"> Email: <p class="me_details text-muted">davimuneeb785@gmail.com</p></span>
+                                <span class="text-danger"> Birthday: <p class="me_details text-muted">20 August 2001</p></span> 
+                                <span class="text-danger"> Age: <p class="me_details text-muted">20</p></span>
+                                <span class="text-danger"> City: <p class="me_details text-muted"> Cape Town</p></span>
+                                <span class="text-danger"> Phone and Message:  <p class="me_details text-muted">+27 76 162 1649</p></span></strong> 
+                          </div>
+                        </div>
                   
                   
             </div>
@@ -190,10 +206,10 @@
                 
                   <h2 class="fs-1display-2 text-dark text-center m-5 ">My Skills</h2>
                   <div class="container">
-                    <div class="row">
+                    <div class="row text-center">
                       <div class="col-md-4  col-md-4 col-lg-4">
                         <div class="card" style="width: 18rem;">
-                          <img src="HTML5_logo_black.svg.png" class="card-img-top" style="height:100px; width: 100px;">
+                          <img src="HTML5_logo_black.svg.png" class="card-img-top" style="height:100px; width: 100px;justify-content: center;">
                           <div class="card-body">
                             <p class="card-text"> <span class="text-danger">Level:</span> Beginner</p>
                             <p class="card-text"> <span class="text-danger">Status:</span> Fairly Good</p>
@@ -222,7 +238,25 @@
                     </div>
                   </div>
                 <div>
-                  <h2 class="fs-1display-2 text-dark text-center justify-content-center m-5 ">Personal Soft Skills</h2>
+                  <div class="accordion m-5" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Personal Soft Skills
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong> <li>Great working in teams.</li>
+                            <li>Good at sovling problems.</li>
+                            <li>I get around with people well.</li>
+                            <li>Good with managing time and priorites.</li>
+                            <li>Peoples person.</li>
+                            <li>Ambition and drive to excel.</li</strong>
+                      </div>
+                    </div>
+                  
+                  <!-- <h2 class="fs-1display-2 text-dark text-center justify-content-center m-5 ">Personal Soft Skills</h2>
                   <ul class="justify-content-center align-items-center d-flex">
                     <li>Great working in teams.</li>
                     <li>Good at sovling problems.</li>
@@ -230,7 +264,7 @@
                     <li>Good with managing time and priorites.</li>
                     <li>Peoples person.</li>
                     <li>Ambition and drive to excel.</li>
-                  </ul>
+                  </ul> -->
                 </div>
              </div>
           </div>     
@@ -241,7 +275,7 @@
         <div class="container-lg">
           <div class="justify-content-center align-items-center m-5">
             <h2 class="fs-1display-2 text-dark text-center m-5 ">My Projects</h2>
-        <div class="container">
+        <div class="container justify-content-center align-items-center">
           <div class="row">
             <div class="card1 m-5 col-md-4  col-md-4 col-lg-4 text-center " style="width: 18rem;">
               <img src="ecom.png" class="card-img-top"  style="height: 200px; width: 200px;">             
