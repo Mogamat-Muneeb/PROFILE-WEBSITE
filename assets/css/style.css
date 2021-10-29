@@ -405,6 +405,6 @@ body{
   height: 160vh;
 }
  */
-#collapseOne{
+.accordion-body{
   margin: auto;
 }
