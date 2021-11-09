@@ -85,7 +85,7 @@ ul.timeline > li:before {
     z-index: 400;
 }
 #about{
-    height: 150vh;
+    height: 100vh;
 }
 
 /* .section{
@@ -93,6 +93,14 @@ ul.timeline > li:before {
 } */
 #skills{
     height: 150vh;
+}
+
+#projects{
+  height: 100vh;
+}
+
+#testimonialS{
+  height: 100vh;
 }
 /* testimoial */
 
@@ -408,3 +416,4 @@ body{
  .card1{
    text-align: center;
  }
+ 
