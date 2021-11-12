@@ -43,8 +43,8 @@
 .info{
      display: flex;
      flex-direction: column;
-     margin-right: 100px;
-     justify-content:end;
+     
+     
 }
 
 .green:hover{
@@ -84,15 +84,13 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
-#about{
+/* #about{
     height: 100vh;
 }
 
-/* .section{
-    justify-content:space-evenly;
-} */
+
 #skills{
-    height: 150vh;
+    height: 100vh;
 }
 
 #projects{
@@ -102,6 +100,15 @@ ul.timeline > li:before {
 #testimonialS{
   height: 100vh;
 }
+
+#about{
+  height: 100vh;
+}
+
+#work-and-education{
+  height: 100vh;
+
+} */
 /* testimoial */
 
 
@@ -277,7 +284,7 @@ body{
 
 /* footer */
 .footer-basic {
-    padding:40px 0;
+    padding:15px 0;
     background-color:#ffffff;
     color:#4b4c4d;
   }
@@ -349,14 +356,14 @@ body{
  } */
 
  /* projects */
-
+/* 
  .card1{
   transition: border-color 1s, box-shadow 0.5s;
 }
 .card1:hover {
   border-color: #df4759;
   box-shadow: 0px 0px 10px 2px #df4759;
-}
+} */
 
 /* .mun {
   margin-left: 45%;
@@ -413,7 +420,98 @@ body{
   height: 160vh;
 }
  */
- .card1{
+ /* .card1{
    text-align: center;
+ } */
+ 
+
+ .card-img-overlay{
+   background-color:rgba(0,0,0,0.6);
+   
+   opacity: 0;
+
  }
  
+ .card-img-overlay:hover{
+  transition-duration: 1s;
+   opacity:1;
+ }
+/* 
+ .caard{
+   border-color: black;
+   border-radius: 0%;
+ } */
+
+.info{
+  margin-top:10px;
+  border-bottom:#292b2c 1px solid ;
+
+}
+
+
+
+@media screen and (min-width:810px){
+              #about{
+                height: 100vh;
+            }
+
+
+            #skills{
+                height: 100vh;
+            }
+
+            #projects{
+              height: 100vh;
+            }
+
+            #testimonialS{
+              height: 100vh;
+            }
+
+            #about{
+              height: 100vh;
+            }
+
+            #work-and-education{
+              height: 100vh;
+
+            }
+              
+}
+.projectbtn{
+  display: flex;
+  justify-content: end;
+  padding-top:60px;
+
+  
+
+}
+
+.probtn{
+  display: flex;
+  justify-content:initial;
+  
+}
+
+@media screen and (min-width:700px){
+  .typing > *{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 5s steps(50);
+  }
+  @keyframes typingAnim {
+    from {width:0}
+    to {width:100%}
+  }
+
+
+}
+@media screen and (max-width:847px){
+  .navbar-collapse{
+    justify-content: center;
+  }
+  
+  .nav-link{
+    text-align: center;
+  }
+}
