@@ -84,32 +84,36 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
-/* #about{
-    height: 100vh;
+#about{
+    background-color:#f7f7f7 ;
 }
 
 
 #skills{
-    height: 100vh;
+  background-color:#f7f7f7 ;
 }
 
 #projects{
-  height: 100vh;
+  /* background-color:#f7f7f7 ; */
 }
 
 #testimonialS{
-  height: 100vh;
+  background-color:#f7f7f7 ;
 }
 
 #about{
-  height: 100vh;
+  
 }
 
 #work-and-education{
-  height: 100vh;
+  /* background-color:#f7f7f7 ; */
 
-} */
-/* testimoial */
+}
+
+#contact-me{
+  
+}
+/* testimoial
 
 
 body{
