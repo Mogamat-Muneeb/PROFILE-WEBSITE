@@ -8,8 +8,7 @@
     
    -webkit-linear-gradient( -45deg,rgb(220, 53, 69)45%,white 0%),
    -webkit-linear-gradient(#f8f9fa , rgba(135, 60, 255, 0.0) 0%);
-    height:100vh;
-     
+    height:100vh; background-color: #2B2B2B;
 }
 
 .land{
@@ -18,11 +17,22 @@
 }
 
 
+/* 
+.details_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+
+} */
 .navbar-collapse{
     display: flex;
     justify-content: flex-end ;
 }
-
+/*  
+.img{
+    padding-left: 30%;
+  
+} */
 .icons{
     color: 	#df4759;
     display: flex;
@@ -37,9 +47,9 @@
 }
 
 .green:hover{
-    
+    /* color: forestgreen; */
     color:#df4759 !important;
-   
+    /* transition: 0.1s; */
 }
 
 /* timeline */
@@ -83,7 +93,7 @@ ul.timeline > li:before {
 }
 
 #projects{
-  /* background-color:#f7f7f7 ; */
+  background-color:#f7f7f7 ;
 }
 
 #testimonialS{
@@ -95,13 +105,12 @@ ul.timeline > li:before {
 }
 
 #work-and-education{
-  /* background-color:#f7f7f7 ; */
+  background-color:#f7f7f7 ;
 
 }
 
 #contact-me{
-  background-color: #565656;
-  
+  background-color:lightgrey;
 }
 /* testimoial
 
@@ -279,7 +288,7 @@ body{
 /* footer */
 .footer-basic {
     padding:15px 0;
-    background-color:#565656;
+    background-color:#ffffff;
     color:#4b4c4d;
   }
   
@@ -336,7 +345,7 @@ body{
     color:#aaa;
     margin-bottom:0;
   }
-  
+ 
 .bn {
   margin-top: 5%;
 
@@ -359,32 +368,12 @@ body{
 } 
 
 .bm{
-  padding-top: 200px;
   justify-content:space-evenly;
+  padding-top: 200px;
 }
-/* 
-@media screen  and (max-width: 300px) {
-  .row1 {
-    justify-content: center;
-    text-align: center;
-    
-  }
-  } */
-/* #projects{
-  height: 160vh;
+.typing{
+  padding-top: 40px;
 }
-
-#testimonialS{
-  height: 200vh;
-}
-
-#contact-me{
-  height: 160vh;
-}
- */
- /* .card1{
-   text-align: center;
- } */
  
 
  .card-img-overlay{
@@ -442,18 +431,14 @@ body{
 }
 .projectbtn{
   display: flex;
-  justify-content: end;
+  justify-content: space-evenly;
   padding-top:60px;
 
   
 
 }
 
-.probtn{
-  display: flex;
-  justify-content:initial;
-  
-}
+
 
 @media screen and (min-width:700px){
   .typing > *{
@@ -477,7 +462,8 @@ body{
     text-align: center;
   }
 }
-
-/* .button{
-  padding-top:25px
-} */
+.form-control{
+  border:none;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
