@@ -9,7 +9,7 @@
    -webkit-linear-gradient( -45deg,rgb(220, 53, 69)45%,white 0%),
    -webkit-linear-gradient(#f8f9fa , rgba(135, 60, 255, 0.0) 0%);
     height:100vh;
-
+     
 }
 
 .land{
@@ -18,22 +18,11 @@
 }
 
 
-/* 
-.details_content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 250px;
-
-} */
 .navbar-collapse{
     display: flex;
     justify-content: flex-end ;
 }
-/*  
-.img{
-    padding-left: 30%;
-  
-} */
+
 .icons{
     color: 	#df4759;
     display: flex;
@@ -48,9 +37,9 @@
 }
 
 .green:hover{
-    /* color: forestgreen; */
+    
     color:#df4759 !important;
-    /* transition: 0.1s; */
+   
 }
 
 /* timeline */
@@ -111,6 +100,7 @@ ul.timeline > li:before {
 }
 
 #contact-me{
+  background-color: #565656;
   
 }
 /* testimoial
@@ -289,7 +279,7 @@ body{
 /* footer */
 .footer-basic {
     padding:15px 0;
-    background-color:#ffffff;
+    background-color:#565656;
     color:#4b4c4d;
   }
   
@@ -347,39 +337,6 @@ body{
     margin-bottom:0;
   }
   
- /* .bio{
-     display:flex;
-     justify-content:space-evenly;
-     
- } */
-/* 
- .row1{
-     display: grid;
-     justify-content: right;
-     margin-top: -300px;
- } */
-
- /* projects */
-/* 
- .card1{
-  transition: border-color 1s, box-shadow 0.5s;
-}
-.card1:hover {
-  border-color: #df4759;
-  box-shadow: 0px 0px 10px 2px #df4759;
-} */
-
-/* .mun {
-  margin-left: 45%;
-  margin-right: 45%;
-  
-}
-
-.n {
-  margin-right: 24%;
- 
-} */
-
 .bn {
   margin-top: 5%;
 
@@ -402,6 +359,7 @@ body{
 } 
 
 .bm{
+  padding-top: 200px;
   justify-content:space-evenly;
 }
 /* 
@@ -519,3 +477,7 @@ body{
     text-align: center;
   }
 }
+
+/* .button{
+  padding-top:25px
+} */
