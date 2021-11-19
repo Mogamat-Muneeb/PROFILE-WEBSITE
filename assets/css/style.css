@@ -6,7 +6,7 @@
     font-size: xx-large;
     background: 
     
-   -webkit-linear-gradient( -45deg,#3C3D3C 45%,#f7f7f7 0%),
+   -webkit-linear-gradient( -45deg,#3C3D3C 45%,#e8eaeb 0%),
    -webkit-linear-gradient(#f8f9fa , rgba(135, 60, 255, 0.0) 0%);
     height:100vh; 
     background-color: #3C3D3C;
@@ -105,26 +105,26 @@ ul.timeline > li:before {
     z-index: 400;
 }
 #about{
-    background-color:#f7f7f7 ;
+    background-color:#e8eaeb;
 }
 
 
 #skills{
-  background-color:#f7f7f7 ;
+  background-color:#e8eaeb ;
 }
 
 #projects{
-  background-color:#f7f7f7 ;
+  background-color:#e8eaeb ;
 }
 
 #testimonialS{
-  background-color:#f7f7f7 ;
+  background-color:#e8eaeb ;
   height: 100vh;
 }
 
 
 #work-and-education{
-  background-color:#f7f7f7 ;
+  background-color:#e8eaeb ;
 
 }
 
@@ -506,4 +506,7 @@ body{
 .skills{
   display: flex;
   justify-content:space-between;
+  
 }
+
+
