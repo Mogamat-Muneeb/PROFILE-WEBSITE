@@ -50,8 +50,16 @@
     color: 	#df4759;
     display: flex;
     justify-content:space-evenly;
-    margin-top: 250px;
+    /* margin-top: 250px; */
 }
+
+.icons1{
+  color: 	#df4759;
+  display: flex;
+  justify-content:space-evenly;
+  margin-top: 150px;
+}
+
 .info{
      display: flex;
      flex-direction: column;
@@ -111,11 +119,9 @@ ul.timeline > li:before {
 
 #testimonialS{
   background-color:#f7f7f7 ;
+  height: 100vh;
 }
 
-#about{
-  
-}
 
 #work-and-education{
   background-color:#f7f7f7 ;
@@ -300,9 +306,9 @@ body{
 
 /* footer */
 .footer-basic {
-    /* padding:15px 0; */
-    /* background-color:#ffffff; */
-    /* color:#4b4c4d; */
+    /* padding:5px 10; */
+    background-color:#3C3D3C ;
+    color:#4b4c4d;
   }
 /*   
   .footer-basic ul {
@@ -443,6 +449,19 @@ body{
          
               
 }
+@media screen and (max-width:809px){
+  #skills{
+    height: 100vh;
+  }
+   #home{
+     height: 100vh;
+   }
+  
+
+  
+}
+
+
 
 
 .projectbtn{
