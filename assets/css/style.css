@@ -17,14 +17,7 @@
   border-radius: 50%;
   margin-top: 35px;
 }
- .hd{
-   text-decoration: underline #df4759 2.5px double;
- }
-
- .bi2{
-   width: 200px;
-   height: 200px;
- }
+ 
  /* .about-btn .btn {
    margin-top: 55px;
    padding: 20px;
@@ -418,8 +411,8 @@ body{
 
 .info{
   margin-top:10px;
-  border-bottom:#292b2c 1px solid ;
-
+  border-bottom:#292b2c -1px solid ;
+  
 }
 
 
