@@ -21,15 +21,19 @@
    text-decoration: underline #df4759 2.5px double;
  }
 
- .btn {
+ .bi2{
+   width: 200px;
+   height: 200px;
+ }
+ /* .about-btn .btn {
    margin-top: 55px;
-  display:block;
-  /* height: 300px;
-  width: 300px; */
-  /* border-radius: 60%; */
+   padding: 20px;
+   background-color: black;
+  height: 100px;
+  width: 100px;
   border: 1px solid red;
-  
-}
+  border-radius: 100%;
+} */
 /* 
 .details_content {
     display: flex;
