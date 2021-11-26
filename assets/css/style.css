@@ -3,7 +3,7 @@
 #Home{
     
     /* font-family: 'Electrolize', sans-serif; */
-    font-size: xx-large;
+    
     background: 
     
    -webkit-linear-gradient( -45deg,#3C3D3C 45%,#e8eaeb 0%),
@@ -418,7 +418,7 @@ body{
 
 
 @media screen and (min-width:810px){
-              #about{
+              #Home{
                 height: 100vh;
             }
 
@@ -448,23 +448,48 @@ body{
 }
 @media screen and (max-width:809px){
   #skills{
-    height: 100vh;
+    height: fit-content;
   }
    #home{
-     height: 100vh;
+     height: fit-content;
    }
-  
+   #projects{
+    height: fit-content
+  }
 
+  #testimonialS{
+    height: fit-content;
+  }
+
+  #about{
+    height: fit-content;
+  }
+
+  #work-and-education{
+    height: fit-content;
+
+  }
+  #contact-me{
+    height:fit-content;
+  }
+  
+  section{
+    
+    height: fit-content;
+  }
   
 }
 
+@media screen and (max-width:314px){
+  
 
+}
 
 
 .projectbtn{
   display: flex;
   justify-content: space-evenly;
-  padding-top:60px;
+  padding-top:35px;
 
   
 
